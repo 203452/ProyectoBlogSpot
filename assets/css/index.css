@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    font-family: Limelight;
+}
+
+p{
+    font-family: Roboto;
+}
+
+.header-image{
+    position: absolute;
+    margin-left: 5%;
+}
+
+.header-titulo{
+    text-align: center;
+    height: 100px;
+    background-color: rgb(140, 50, 52);
+}
+
+.header-nav{
+   list-style: none;
+   background-color: rgb(61, 61, 57);
+   margin-top: 0%;
+   margin-bottom: 0%;
+}
+.header-nav_item{
+    display: inline;
+}
+.item{
+    text-decoration: none;
+    margin-left: 60%;
+    color: rgb(192,172,81);
+    font-size: 20px;
+}
+.item-next{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(192,172,81);
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(193,174,134);
+}
+
+main{
+    height: 2200px;
+    width: 93%;
+    margin: auto;
+}
+
+.parte-resumen{
+    position: relative;
+    width: 80%;
+    height: 100%;
+}
+
+main section p{
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 8px;
+}
+
+.seguir_leyendo{
+    text-decoration: none;
+    
+}
+#noticias{
+    text-align: center;
+}
+.noticias-link{
+    text-decoration: none;
+}
+.parte-relevante{
+    background-color: rgb(91,83,70);
+    position: relative;
+    width: 20%;
+    height: 100%;
+    top: -100%;
+    left: 80%;
+    
+}
+
+.relevante{
+    text-align: center;
+    color: rgb(192,172,81);
+}
+
+.information-imagen{
+    margin-left: 5px;
+    color: rgb(192,172,81);
+}
+
+.information{
+    margin-left: 5px;
+    text-align: justify;
+    margin-top: -4px;
+    color: rgb(238,235,209);
+}
+
+footer{
+    height: 70px;
+    background-color: rgb(140, 50, 52);
+}
+
+footer div{
+    display: inline-block;
+    margin-left: 60%;
+}
+
+footer div img{
+    margin-left: 20px;
+}
+.contacto{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.box{
+    border: 1px black solid;
+}
